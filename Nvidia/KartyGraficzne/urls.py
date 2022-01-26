@@ -3,7 +3,7 @@ from rest_framework import routers
 from .views import KartyViewSet
 
 router = routers.DefaultRouter()
-router.register(r'modeles', KartyViewSet)
+router.register(r'karty', KartyViewSet)
 
 urlpatterns = [
     path('api/', include(router.urls)),
